@@ -1,0 +1,79 @@
+
+// var Obstacle = function(x,y,width,height){
+//   this.x = x;
+//   this.y = y;
+//   this.height = height;
+//   this.width = width;
+// }
+
+// Obstacle.prototype.draw = function(){
+//   ctx.fillRect(this.x, this.y, this.width, this.height);
+// }
+
+
+
+    // this.badGuesses = [];
+    // this.goodGuesses = [];
+    // this.errorsLeft = 3;
+    // this.correctResults = [];
+  
+
+ 
+
+
+
+//   fallingNumber.ptototype.move = function () {
+
+//   fallingNumber.getXPosition = function() {
+// 		return x;
+// 	};
+//   fallingNumber.getYPosition = function() {
+// 		return y;
+//   };
+  
+//   fallingNumber.getType = function (){
+// 		return type;
+//   }
+
+// };
+
+  
+
+
+
+// var Number = function () {
+
+//   this.numbers = function (i) {
+//   for (var i = 0; i <= 100; i++) {
+//       console.log(i);
+//     }}
+//   this.badGuesses = [];
+//   this.goodGuesses = [];
+//   this.errorsLeft = 3;
+//   this.correctResults = [];
+//   }
+
+// public void paint(printedNumber){
+//   g.setColor(Color.CYAN);
+//   g.fillRect(numXLocation,numYLocation,numSize,numSize);
+// }
+
+
+
+//  public FallingAnswer (){
+//   generateRandomXLocation();
+//   generateRandomNumber();
+//   generateRandomFallSpeed();
+// };
+
+
+// public void update(){
+
+
+//   if(squareYLocation >= canvas.height){
+//       generateRandomXLocation();
+//       generateRandomFallSpeed()
+//       numYLocation = -fallingNumberSize;
+//   }
+
+  //glyphicon glyphicon-heart
