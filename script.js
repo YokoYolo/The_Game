@@ -4,6 +4,8 @@
     var currentGame;
     var cow;
     var newNumber;
+    var sumNumberOne;
+    var sumNumberTwo;
     var scoreText;
     var score = 0;
     var lives = 3;
@@ -34,8 +36,8 @@ Cow.prototype.drawcow = function(){
 }
 
   function fallingNumber() {    
-  var sumNumberOne = Math.floor(1+ Math.random() * 9);
-  var sumNumberTwo = Math.floor(1+ Math.random() * 9); 
+  sumNumberOne = Math.floor(1+ Math.random() * 9);
+  sumNumberTwo = Math.floor(1+ Math.random() * 9); 
   currentNumbers.push(sumNumberOne, sumNumberTwo); 
   var equation = new  NewNumber(sumNumberOne + sumNumberTwo);
   var numberArray = [equation]
@@ -91,10 +93,10 @@ for ( var i = 0; i < fallingNumbers.length; i++){
 
   if (currentGame.cow.x +130 >= fallingNumbers[i].x && currentGame.cow.x  <= fallingNumbers[i].x + fallingNumbers[i].width &&
     currentGame.cow.y+110 >= fallingNumbers[i].y && currentGame.cow.y <= fallingNumbers[i].y){
-       console.log("collision", currentGame.cow, fallingNumbers[i])
+      fallingNumbers[i].remove()
       }
   else {
-    // console.log ("hello there");
+    console.log ("hello there");
 }
 
 
