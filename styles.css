@@ -3,8 +3,7 @@
 
     body {
     padding: 0;
-    background-image: url('./landscape-1844229.png');
-    background-size: cover;
+    margin:0;
 
   }
   
@@ -35,12 +34,24 @@
   
 
   .game-intro {
-   
+    align-content: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 16;
+    font-size: 89;
     
   }
 
+  .hearts {
+    display: flex;
+    justify-content: flex-start;
 
+  }
+
+  .hearts img{
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+  }
   
